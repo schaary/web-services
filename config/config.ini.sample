@@ -1,0 +1,19 @@
+[general]
+date_default_timezone = 'Europe/Berlin'
+
+db.pgsql.adapter = "pgsql"
+db.pgsql.connection.database = "ldapexp"
+db.pgsql.connection.host = "192.168.12.12"
+db.pgsql.connection.port = "8000"
+db.pgsql.connection.user = "ldap"
+db.pgsql.connection.password = "XXXXXXXXX"
+
+db.oracle.adapter = "oci"
+db.oracle.connection.database = "XE"
+db.oracle.connection.link = "//delphi.urz.uni-halle.de/XE"
+db.oracle.connection.port = "1521"
+db.oracle.connection.user = "hr"
+db.oracle.connection.password = "XXXXXXXX"
+
+; die Log-Dateien
+log.file.general = "cron_general.log"
